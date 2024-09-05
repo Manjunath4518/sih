@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mentor Profile</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+        }
+        header {
+            background-color: #3a7bd5;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5em;
+        }
+        .container {
+            width: 90%;
+            margin: 0 auto;
+            max-width: 1200px;
+            padding: 20px 0;
+        }
+        .profile-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 20px;
+            border-bottom: 1px solid #ddd;
+        }
+        .profile-header .mentor-details {
+            flex: 1;
+        }
+        .profile-header h2 {
+            margin: 0;
+            font-size: 2.2em;
+            color: #333;
+        }
+        .profile-header p {
+            font-size: 1.1em;
+            color: #666;
+        }
+        .profile-header .mentor-image {
+            flex: 0.2;
+            text-align: right;
+        }
+        .profile-header .mentor-image img {
+            border-radius: 50%;
+            max-width: 150px;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .section h3 {
+            margin-top: 0;
+            font-size: 1.8em;
+            color: #333;
+        }
+        .section p {
+            font-size: 1.2em;
+            color: #666;
+        }
+        .awards ul, .reviews ul, .feedback ul, .bookings ul {
+            list-style: none;
+            padding-left: 0;
+        }
+        .awards ul li, .reviews ul li, .feedback ul li, .bookings ul li {
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+        .book-session, .video-call {
+            text-align: center;
+            margin: 30px 0;
+        }
+        .book-session iframe, .video-call iframe {
+            width: 100%;
+            height: 500px;
+            border: none;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #3a7bd5;
+            color: white;
+            padding: 15px 0;
+            text-align: center;
+        }
+        footer p {
+            margin: 0;
+            font-size: 1em;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mentor Profile</h1>
+    </header>
+
+    <div class="container">
+        <div class="profile-header">
+            <div class="mentor-details">
+                <h2>John Doe</h2>
+                <p>Professional Mentor | 10+ Years Experience | Leadership & Career Development Expert</p>
+            </div>
+            <div class="mentor-image">
+                <img src="mentor-image.jpg" alt="Mentor Picture">
+            </div>
+        </div>
+
+        <div class="section awards">
+            <h3>Awards & Achievements</h3>
+            <ul>
+                <li>Top Leadership Mentor 2023</li>
+                <li>Best Career Guide Award 2022</li>
+                <li>Mentor Excellence Award 2020</li>
+            </ul>
+        </div>
+
+        <div class="section reviews">
+            <h3>Reviews</h3>
+            <ul>
+                <li>⭐⭐⭐⭐⭐ "John's mentorship helped me transition into a leadership role seamlessly!" - Jane Doe</li>
+                <li>⭐⭐⭐⭐ "Great advice and practical tips for career development." - Mike Smith</li>
+            </ul>
+        </div>
+
+        <div class="section feedback">
+            <h3>Feedback from Mentees</h3>
+            <ul>
+                <li>"John's sessions were incredibly insightful and structured."</li>
+                <li>"I gained clarity in my career path thanks to John's guidance."</li>
+            </ul>
+        </div>
+
+        <div class="section bookings">
+            <h3>Previous Bookings</h3>
+            <ul>
+                <li>Career Counseling Session - August 2024</li>
+                <li>Leadership Development Workshop - July 2024</li>
+            </ul>
+        </div>
+
+        <div class="section book-session">
+            <h3>Book a Session</h3>
+            <!-- Calendly Widget -->
+            <iframe src="https://calendly.com/john-doe-mentor/30min" frameborder="0"></iframe>
+        </div>
+
+        <div class="section video-call">
+            <h3>Start a Video Call</h3>
+            <!-- Embed a video call option (replace with your video call solution) -->
+            <iframe src="https://meet.jit.si/JohnDoeMentor" frameborder="0"></iframe>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Mentor Connect. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
